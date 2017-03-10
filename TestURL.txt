@@ -1,0 +1,30 @@
+ //string currentUrl = HttpContext.Current.Request.Url.ToString().ToLower();
+            //if (currentUrl.StartsWith("www.demo.thedocyard.co"))
+            //{
+            //    Response.Status = "301 Moved Permanently";
+            //    Response.AddHeader("Location", currentUrl.Replace("www.demo.thedocyard.co/", "https://demo.thedocyard.co/"));
+            //    Response.End();
+            //}
+            //else if (currentUrl.StartsWith("https://demo.thedocyard.co/"))
+            //{
+            //    Response.Status = "301 Moved Permanently";
+            //    Response.AddHeader("Location", currentUrl.Replace("www.demo.thedocyard.co/", "https://demo.thedocyard.co/"));
+            //    Response.End();
+            //}
+
+            //string currentUrl = HttpContext.Current.Request.Url.ToString().ToLower();
+            //if (currentUrl.StartsWith("www.demo.livedemowork.net") || currentUrl.StartsWith("http://www.demo.livedemowork.net"))
+            //{
+            //    Response.Status = "301 Moved Permanently";
+            //    Response.AddHeader("Location", "http://demo.livedemowork.net/");
+            //    Response.End();
+            //}
+
+            //if (Request.Url.Host.StartsWith("www") && !Request.Url.IsLoopback)
+            //{
+            //    UriBuilder builder = new UriBuilder(Request.Url);
+            //    builder.Host = Request.Url.Host;
+            //    Response.StatusCode = 301;
+            //    Response.AddHeader("Location", builder.ToString());
+            //    Response.End();
+            //}
