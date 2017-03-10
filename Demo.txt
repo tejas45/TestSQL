@@ -1,0 +1,10 @@
+string prefixPath = System.Configuration.ConfigurationManager.AppSettings["GetFilePath"];
+
+
+AddClosingRoom
+GetYardFileListByID
+AddUpdateDocOrTabMaster
+CheckFolderMoveLength
+CheckFolderRenameLength
+
+UPDATE YardFolder SET FolderPath=REPLACE(FolderPath,'/Content','') 
